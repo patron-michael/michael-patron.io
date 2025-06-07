@@ -2,3 +2,49 @@ remote_theme: andrewbanchich/forty-jekyll-theme
 
 plugins:
   - jekyll-remote-theme
+
+# site settings
+title: Portfolio
+subtitle: by HTML5 UP
+email: michael.patron.30@gmail.com
+description: My web Portfolio site.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address:
+city: Montpellier
+state: 
+zip_code: 34090
+country: France
+phone: +33 662799354
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  Orcid: https://orcid.org/0000-0002-5713-5219
+  GitHub: 
+  GitLab:
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
