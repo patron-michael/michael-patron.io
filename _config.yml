@@ -13,7 +13,7 @@ url: # the base hostname & protocol for your site
 author:
 street_address:
 city: Montpellier
-state: 
+# state: 
 zip_code: 34090
 country: France
 phone: +33 662799354
@@ -28,14 +28,14 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   Orcid: https://orcid.org/0000-0002-5713-5219
-  GitHub: 
-  GitLab:
-  Google-Plus: 
-  Instagram:
-  LinkedIn: 
-  Twitter: 
-  Facebook:
-  Slack:
+#  GitHub: 
+#  GitLab:
+#  Google-Plus: 
+#  Instagram:
+#  LinkedIn: 
+#  Twitter: 
+#  Facebook:
+#  Slack:
 
 # build settings
 markdown: kramdown
