@@ -80,16 +80,24 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 #banner,
 #main,
 #contact {
-  flex: 1 0 0;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
 }
