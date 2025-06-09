@@ -3612,9 +3612,6 @@ html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-}
-
-body {
   overflow: hidden;
 }
 
@@ -3626,8 +3623,7 @@ body {
 }
 
 #wrapper > section,
-#wrapper > #main,
-#wrapper > section#contact {
+#wrapper > #main {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
@@ -3635,8 +3631,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* Remove any margin/padding that could break fullscreen */
   margin: 0 !important;
   padding: 0 !important;
+  box-sizing: border-box;
+}
+
+/* If #main contains inner sections, you may want: */
+#wrapper > #main > section {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
