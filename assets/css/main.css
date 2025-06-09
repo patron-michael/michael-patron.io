@@ -3639,7 +3639,7 @@ html, body {
 
 /* Contact: 90vh, Footer: 10vh */
 #wrapper > section#contact {
-  height: 90vh !important;
+  height: 80vh !important;
   width: 100vw !important;
   scroll-snap-align: start;
   display: flex;
@@ -3653,7 +3653,7 @@ html, body {
 
 #wrapper > footer,
 #wrapper > #footer {
-  height: 10vh !important;
+  height: 20vh !important;
   width: 100vw !important;
   /* No scroll-snap-align here so it appears with contact */
   display: flex;
