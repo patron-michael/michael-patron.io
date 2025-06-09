@@ -28,6 +28,12 @@
 		{% if page.layout == "cv" %}
 			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		{% endif %}
+		{% if page.layout == "realisation" %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		{% endif %}
+		{% if page.layout == "situation" %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		{% endif %}
 	{% endfor %}
 <!-- 		<li><a href="#" class="button fit">Log In</a></li>  -->
 	</ul>
