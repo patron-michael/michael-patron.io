@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Portfolio'
 description: null
-image: assets/images/dna_analysis_background
+image: null
 author: null
 show_tile: false
 ---
