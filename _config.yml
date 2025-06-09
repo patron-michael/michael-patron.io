@@ -4,7 +4,7 @@ plugins:
   - jekyll-remote-theme
 
 # site settings
-title: Michael Patron Portfolio
+title: Portfolio
 subtitle: by HTML5 UP
 email: michael.patron.30@gmail.com
 description: My web Portfolio site.
