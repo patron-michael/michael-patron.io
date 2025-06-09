@@ -3,7 +3,7 @@ layout: realisation
 title: Realisations
 landing-title: null
 description: null
-image: null
+image: assets/images/realisation.jpg
 author: null
 show_tile: true
 ---
