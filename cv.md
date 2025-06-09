@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: curriculum vitae
+title: Curriculum vitae
 landing-title: null
 description: null
 image: assets/images/curriculum_vitae.jpg
