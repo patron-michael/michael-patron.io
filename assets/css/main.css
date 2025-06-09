@@ -80,11 +80,18 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
-body {
+#wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0;
+}
+
+#banner,
+#main,
+#contact {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
 }
 
 
