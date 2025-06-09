@@ -28,8 +28,8 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   Orcid: https://orcid.org/0000-0002-5713-5219
-#  GitHub: 
-#  GitLab:
+  GitHub: https://github.com/patron-michael 
+  GitLab: https://gitlab.com/patron-michael
 #  Google-Plus: 
 #  Instagram:
 #  LinkedIn: 
