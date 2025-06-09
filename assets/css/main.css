@@ -3606,3 +3606,37 @@ body.is-menu-visible #menu .inner {
     opacity: 1;
     visibility: visible
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+#wrapper > section,
+#wrapper > #main,
+#wrapper > section#contact {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Remove any margin/padding that could break fullscreen */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
