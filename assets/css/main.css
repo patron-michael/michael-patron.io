@@ -3623,24 +3623,35 @@ html, body {
 }
 
 #wrapper > section,
-#wrapper > #main {
-  height: 100vh;
-  width: 100vw;
+#wrapper > #main,
+#wrapper > section#contact {
+  height: 100vh !important;
+  width: 100vw !important;
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: stretch;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box;
 }
 
-/* If #main contains inner sections, you may want: */
-#wrapper > #main > section {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+/* Make all .inner containers fill their parent */
+#wrapper > section > .inner,
+#wrapper > #main > .inner,
+#wrapper > section#contact > .inner {
+  flex: 1 1 auto;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
