@@ -1,11 +1,9 @@
 ---
 layout: home
 title: Home
-landing-title: 'Portfolio'
+landing-title: 'Michael Patron Portfolio'
 description: null
 image: null
 author: null
 show_tile: false
 ---
-
-Hello world
