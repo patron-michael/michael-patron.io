@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 {% include head.html %}
@@ -12,42 +7,29 @@
 
     {% include header.html %}
 
-    <!-- Banner 
-    <section id="banner" class="major">
+    <!-- Description Section -->
+    <section id="description" style="padding: 2em 0;">
         <div class="inner">
             <header class="major">
-                <h1>{{ page.landing-title }}</h1>
+                <h2>Description</h2>
             </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
-            </div>
+            <p>Write your description here. You can use Markdown or HTML as needed.</p>
         </div>
     </section>
-    -->
-  
+
+    <!-- PDF Display Section -->
+    <section id="pdf-viewer" style="padding: 2em 0;">
+        <div class="inner">
+            <header class="major">
+                <h2>View PDF</h2>
+            </header>
+            <iframe src="/assets/data/CV_Michael_Patron.pdf" width="100%" height="600px" style="border: none;"></iframe>
+        </div>
+    </section>
+
     <!-- Main -->
     <div id="main">
-
-	     <p>{{ content }}</p>
-        <!-- One 
-        {% include tiles.html %}
--->
-        <!-- Two 
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
--->
+        <p>{{ content }}</p>
     </div>
 
     {% include footer.html %}
