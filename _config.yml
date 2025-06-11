@@ -18,6 +18,19 @@ zip_code: 34090
 country: France
 phone: +33 662799354
 
+# Institut information
+institut_description: Located in the Parc Euromédecine, the Montpellier Cancer Research Institute (U1194) is located on the Val d'Aurelle Campus (ICM, Institut régional du Cancer Montpellier / Val d'Aurelle).
+support: U1194 Research Centre supported by Inserm, the University of Montpellier and the Montpellier Cancer Institute (ICM)
+institut_street_adress: 208 avenue des Apothicaires
+city: Montpellier
+zip_code: 34298
+country: France
+ircm_url: https://www.ircm.fr/
+
+# Team information
+team_description: 
+team_url: https://www.ircm.fr/index.php?pagendx=243
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
